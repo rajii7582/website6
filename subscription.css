@@ -1,0 +1,327 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}html,body{
+    height: 100%;
+    width: 100%;
+
+}.main{
+    height: 100vh;
+    width: 100%;
+
+}marquee{
+    height: 5%;
+    width: 100%;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 20px;
+}.header{
+    height: 10%;
+    width: 100%;
+    background-color: #f0c3c3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    
+ 
+}button{
+    width: 20%;
+    height: 35%;
+    border: none;
+   font-size: 15px;
+    border-radius: 25px;
+}.l1>ul>li{
+    width: 100%;
+    height: 5%;
+    background-color:#f0c3c3 ;
+    display: flex;
+
+}.slider{
+    height: 75%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    /* transition: 0.25s; */
+}.slide{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* display: none; */
+   
+} .slide>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}.page1{
+height: 100%;
+width: 100%;
+display: flex;
+}.page1>.left{
+    height: 50%;
+    width: 50%;
+    background-image: url(https://i2.wp.com/www.scriberr.in/wp-content/uploads/2022/12/Instant-breakfast-home-600-x-300.png?w=600&ssl=1);
+    background-size: cover;
+}.page1>.right{
+    height: 50%;
+    width: 50%;
+    background-image: url(https://i2.wp.com/www.scriberr.in/wp-content/uploads/2021/04/home-page-cards-1.png?w=600&ssl=1);
+    background-size: cover;
+}h1{
+    font-size: 70px;
+    padding-left: 40%;
+    margin-bottom: 3%;
+}
+
+.page2{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    }.page2>.left{
+        height: 50%;
+        width: 50%;
+        background-image: url(https://i0.wp.com/www.scriberr.in/wp-content/uploads/2022/02/LUJO-BANNER-3.jpg?w=600&ssl=1);
+        background-size: cover;
+    }.page2>.right{
+        height: 50%;
+        width: 50%;
+        background-image: url(https://i2.wp.com/www.scriberr.in/wp-content/uploads/2022/02/LUJO-BANNER-5.jpg?w=595&ssl=1);
+        background-size: cover;
+     } h2{
+        margin-top: -20%;
+        margin-bottom: 2%;
+       
+        text-align: center;
+        font-size: 40px;
+     }
+
+     .page3{
+        height: 90%;
+        width: 100%;
+        display: flex;
+        }.page3>.left{
+            height: 50%;
+            width: 50%;
+            background-image: url(https://i1.wp.com/www.scriberr.in/wp-content/uploads/2020/07/Period-subscription.png?w=600&ssl=1);
+            background-size: cover;
+        }.page3>.right{
+            height: 50%;
+            width: 50%;
+            background-image: url(https://i1.wp.com/www.scriberr.in/wp-content/uploads/2020/07/Period-subscription.png?w=600&ssl=1);
+            background-size: cover;
+         } h2{
+            margin-top: -20%;
+            margin-bottom: 2%;
+           
+            text-align: center;
+            font-size: 40px;
+         }
+
+         .page4{
+            height: 90%;
+            width: 100%;
+            display: flex;
+            }.page4>.left{
+                height: 50%;
+                width: 50%;
+                background-image: url(https://i2.wp.com/www.scriberr.in/wp-content/uploads/2022/12/Gourmet-Foods-Home-400-x-600.png?w=400&ssl=1);
+                background-size: cover;
+            }.page4>.right{
+                height: 50%;
+                width: 50%;
+                background-image: url(https://i2.wp.com/www.scriberr.in/wp-content/uploads/2021/07/Vertical-slider-400-x-600-1.png?w=400&ssl=1);
+                background-size: cover;
+             } h2{
+                margin-top: -20%;
+                margin-bottom: 2%;
+               
+                text-align: center;
+                font-size: 40px;
+             }
+
+
+             .page5{
+                height: 90%;
+                width: 100%;
+                display: flex;
+                }.page5>.left{
+                    height: 50%;
+                    width: 50%;
+                    background-image: url(https://i2.wp.com/www.scriberr.in/wp-content/uploads/2021/03/Clensta-scriberr-page.png?w=600&ssl=1);
+                    background-size: cover;
+                }.page5>.right{
+                    height: 50%;
+                    width: 50%;
+                    background-image: url(https://i2.wp.com/www.scriberr.in/wp-content/uploads/2021/03/Clensta-scriberr-page.png?w=600&ssl=1);
+                    background-size: cover;
+                 } h2{
+                    margin-top: -20%;
+                    margin-bottom: 2%;
+                   
+                    text-align: center;
+                    font-size: 40px;
+                 }
+
+
+                 .page6{
+                    height: 90%;
+                    width: 100%;
+                    display: flex;
+                    }.page6>.left{
+                        height: 50%;
+                        width: 50%;
+                        background-image: url(https://i1.wp.com/www.scriberr.in/wp-content/uploads/2020/07/1-1.png?w=600&ssl=1);
+                        background-size: cover;
+                    }.page6>.right{
+                        height: 50%;
+                        width: 50%;
+                        background-image: url(https://i2.wp.com/www.scriberr.in/wp-content/uploads/2020/07/4-to-6-1.png?w=600&ssl=1);
+                        background-size: cover;
+                     } h2{
+                        margin-top: -20%;
+                        margin-bottom: 2%;
+                       
+                        text-align: center;
+                        font-size: 40px;
+                     }
+
+                     .page7{
+                        height: 90%;
+                        width: 100%;
+                        display: flex;
+                        }.page7>.left{
+                            height: 50%;
+                            width: 50%;
+                            margin-top: -20%;
+                            line-height: 59px;
+                            font-size: 30px;
+                           
+                        }.page7>.left>h3{
+                            font-size: 30px;
+                            margin-left: 10%;
+                        }.page7>.right{
+                            height: 70%;
+                            width: 50%;
+                            background-color: blue;
+                            color: rgb(163, 200, 233);
+                            padding-left: 18%;
+                            letter-spacing: 10px;
+                            margin-top: -20%;
+                            margin-left: -10px;
+                         
+                           
+                         } .page7>.right>h1{
+                          margin-left: -60%;
+                          margin-top: 10%;
+                         }.page7>.right>p{
+                            font-size: 30px;
+                            margin-top: 10%;
+                         }.page8{
+                            height: 80%;
+                            width: 100%;
+                            background-color:pink;
+                            margin-top: -30%;
+                           
+                           padding-top: 15%;
+                         }.page8>h4{
+                            font-size: 80px;
+                            padding-left: 30%;
+                            margin-top: -10%;
+                         }
+                         .page8>.p{
+                            height: 80%;
+                            width: 100%;
+
+                            display: flex;
+                            gap: 3%;
+
+                         }.p1{
+                            height: 100%;
+                            width: 30%;
+                            background-image: url(https://i1.wp.com/www.scriberr.in/wp-content/uploads/2019/05/Summer-Blog-05-1.jpg?w=1024&ssl=1);
+                            background-size: cover;
+                            border-radius: 25px;
+                            background-color: red;
+                          transform: translate(5% ,5%);
+                          margin-top: 3%;
+                         }
+                         .p2{
+                            height: 100%;
+                            width: 30%;
+                            background-image: url(https://i1.wp.com/www.scriberr.in/wp-content/uploads/2019/07/best-subscription-top-2.jpg?w=1000&ssl=1);
+                            background-size: cover;
+                            border-radius: 25px;
+                            background-color: red;
+                          transform: translate(5% ,5%);
+                          margin-top: 3%;
+                         }
+                         .p3{
+                            height: 100%;
+                            width: 30%;
+                            background-image: url(https://i0.wp.com/www.scriberr.in/wp-content/uploads/2018/10/subscription-boxes-for-men-2.jpg?w=1600&ssl=1);
+                            background-size: cover;
+                            border-radius: 25px;
+                            background-color: red;
+                          transform: translate(5% ,5%);
+                          margin-top: 3%;
+                         }
+
+
+                         .page9{
+                            height: 80%;
+                            width: 100%;
+                            background-color: black;
+                          color: aliceblue;
+                          display: flex;
+                          gap: 18%;
+                          padding-left: 10%;
+                          padding-top: 3%;
+                        
+                        }.page9>.f1>p{
+                            font-size: 15px;
+                            margin-right: 5%;
+                        }
+                        .f1{
+                            padding-top: 8%;
+                            font-size: 150%;
+                            height: 70%;width: 20%;
+                            border-right: 1px solid aliceblue;
+                         
+                        }
+                        .f2{
+                            margin-top: 2%;
+                            height: 70%;width: 20%;
+                            border-right: 1px solid aliceblue;
+                            font-size: 20px;
+                            margin-left: -10%;
+                           padding-top: 8%;
+                         
+                        }.f2>ul{
+                           
+                            display: block;
+                            font-size: 80%;
+                          
+                            margin-top: 8%;
+                            margin-left: 1px;
+                        }.f3>input{
+                          
+                            background-color:black;
+                            color: aliceblue;
+                            border: 1px solid aliceblue;
+                            font-size: 80%;
+                           margin-top: 5%;
+                           height: 10%;
+                          width: 65%;
+                        }  .f3{
+                            padding-top: 8%;
+                        }           
+
+
+
+
